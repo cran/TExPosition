@@ -1,4 +1,4 @@
-b8803542969a269a654074d4638b01d4 *DESCRIPTION
+cbc7266cf886189d5495aaf153ec710d *DESCRIPTION
 e4bf425b436adc6555e07ff29f35d77d *NAMESPACE
 606786f62e15de7d24ad067ef17d0621 *R/R2.R
 d7eb5f0ace6875878fac642d68015a64 *R/TExPosition-internal.R
@@ -10,14 +10,14 @@ d7eb5f0ace6875878fac642d68015a64 *R/TExPosition-internal.R
 ff3a1d7947d4048d6a9f257bc2fcd309 *R/print.tepGraphs.R
 e0e0b99b4b4436d084d6f6e8098291ca *R/print.texpoOutput.R
 45f323eb0f51270529496381e696af29 *R/supplementaryRows.R
-c18920bd07cc03bc3018da194d14670e *R/tepBADA.R
-b6d322b6703be3ffee9de6b0fd518aa3 *R/tepDICA.R
+40309b7bb62cc67ef3e074f98a681dd5 *R/tepBADA.R
+42ee26ab564da3247c7f822f44d21dc1 *R/tepDICA.R
 15a0774199444df69324ffc6bdc61872 *R/tepGraphHandler.R
-c242248f8d6ac3158f2594ea702e6123 *R/tepGraphs.R
+ae3c68cfadb0d2b01afe8a248a6c0712 *R/tepGraphs.R
 819d2cc9f4c470d0ee34ce54d735ba3a *R/tepOutputHandler.R
 3fe1b1a6bb7d3ad97b9fbf53abc55046 *R/texpoDesignCheck.R
 1289e9dc00c2968ef674bf2267f76b36 *man/R2.Rd
-a84f3ff80197714842556a566b350c53 *man/TExPosition-package.Rd
+c3cbbb3b2b6eef255ed1f057d871e710 *man/TExPosition-package.Rd
 e1437dc5368adee379e07ae76643b9b5 *man/fastEucCalc.Rd
 69d9ee0161fca347ef5b6c715dcdda11 *man/fii2fi.Rd
 1627779591a9a6f1f347bdf6e9979a16 *man/print.tepAssign.Rd
