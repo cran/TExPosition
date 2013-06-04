@@ -7,13 +7,14 @@
 Barycentric Discriminant Analysis (BADA) via TExPosition.
 }
 \usage{
-tepBADA(DATA, scaleFlag = TRUE, centerFlag = TRUE, DESIGN = NULL, make_design_nominal = TRUE, group.masses = NULL, ind.masses = NULL, weights = NULL, graphs = TRUE, k = 0)
+tepBADA(DATA, scale = TRUE, center = TRUE, DESIGN = NULL, make_design_nominal = TRUE, 
+	group.masses = NULL, ind.masses = NULL, weights = NULL, graphs = TRUE, k = 0)
 }
 \arguments{
-    \item{DATA}{original data to perform a PCA on.}
-  \item{scaleFlag}{a boolean. If TRUE (default) the data will be scaled (z-scored) per column.}
-  \item{centerFlag}{a boolean. If TRUE (default) the data will be centered at 0 per column.}
-  \item{DESIGN}{a design matrix to indicate if rows belong to groups.}
+    \item{DATA}{original data to perform a BADA on.}
+  \item{scale}{a boolean, vector, or string. See \code{\link{expo.scale}} for details.}
+  \item{center}{a boolean, vector, or string. See \code{\link{expo.scale}} for details.}
+  \item{DESIGN}{a design matrix to indicate if rows belong to groups. Required for BADA.}
   \item{make_design_nominal}{a boolean. If TRUE (default), DESIGN is a vector that indicates groups (and will be dummy-coded). If FALSE, DESIGN is a dummy-coded matrix.}
   \item{group.masses}{a diagonal matrix or column-vector of masses for the groups.}
   \item{ind.masses}{a diagonal matrix or column-vector of masses for the individuals (rows).}
@@ -45,6 +46,6 @@ Derek Beaton
 }
 \examples{
 data(bada.wine)
-bada.res <- tepBADA(bada.wine$data,scaleFlag=FALSE,DESIGN=bada.wine$design,make_design_nominal=FALSE)
+bada.res <- tepBADA(bada.wine$data,scale=FALSE,DESIGN=bada.wine$design,make_design_nominal=FALSE)
 }
 \keyword{ multivariate }
