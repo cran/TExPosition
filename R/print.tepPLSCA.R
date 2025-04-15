@@ -1,3 +1,13 @@
+#' Print tepPLSCA results
+#' 
+#' Print tepPLSCA results.
+#' 
+#' 
+#' @param x an list that contains items to make into the tepPLSCA class.
+#' @param \dots inherited/passed arguments for S3 print method(s).
+#' @author Derek Beaton, Cherise Chin-Fatt
+#' @keywords print
+#' @export print.tepPLSCA
 print.tepPLSCA <-
 function (x,...) {
 
@@ -27,7 +37,7 @@ function (x,...) {
   res[14,] <- c("$W2","weights for DATA2")
   res[15,] <- c("$pdq","GSVD data")    
   res[16,] <- c("$X","X matrix to decompose")    
-  res[17,] <- c("$symmetric","a boolean. TRUE if symmetric scores used for biplot.")  
+  res[17,] <- c("$symmetric","a boolean. TRUE if symmetric scores used.")  
   
   print(res)
 

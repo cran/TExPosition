@@ -1,3 +1,13 @@
+#' Print tepPLS results
+#' 
+#' Print tepPLS results.
+#' 
+#' 
+#' @param x an list that contains items to make into the tepPLS class.
+#' @param \dots inherited/passed arguments for S3 print method(s).
+#' @author Derek Beaton, Cherise Chin-Fatt
+#' @keywords print
+#' @export print.tepPLS
 print.tepPLS <-
 function (x,...) {
 

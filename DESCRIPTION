@@ -1,15 +1,30 @@
 Package: TExPosition
 Type: Package
 Title: Two-Table ExPosition
-Version: 2.6.10.1
-Date: 2013-12-09
-Author: Derek Beaton, Jenny Rieck, Cherise R. Chin Fatt, Herve Abdi
-Maintainer: Derek Beaton <exposition.software@gmail.com>
+Version: 2.9.0
+Date: 2025-03-30
+Authors@R: c(
+  person(given= "Derek", family = "Beaton", role = c("aut","cre"), email = "exposition.software@gmail.com"),
+  person(given= "Jenny", family = "Rieck", role = c("aut")),
+  person(given= "Cherise R.", family = "Chin Fatt", role = c("aut")),
+  person(given= "Ju-Chi", family = "Yu", role = c("ctb")),
+  person(given= "Luke", family = "Moraglia", role = c("ctb")),
+  person(given= "Herve", family = "Abdi", role = c("aut"))
+  )
 Description: An extension of ExPosition for two table analyses, specifically, discriminant analyses.
 License: GPL-2
-Depends: prettyGraphs (>= 2.1.4), ExPosition (>= 2.0.0)
-Packaged: 2019-01-31 17:22:24 UTC; hornik
-BugReports: http://code.google.com/p/exposition-family/issues/list
+Encoding: UTF-8
+Depends: prettyGraphs (>= 2.2.0), ExPosition (>= 2.11.0)
+Packaged: 2025-04-12 18:08:29 UTC; Derek
+BugReports: https://github.com/derekbeaton/ExPosition1/issues
+RoxygenNote: 7.3.2
 NeedsCompilation: no
+Author: Derek Beaton [aut, cre],
+  Jenny Rieck [aut],
+  Cherise R. Chin Fatt [aut],
+  Ju-Chi Yu [ctb],
+  Luke Moraglia [ctb],
+  Herve Abdi [aut]
+Maintainer: Derek Beaton <exposition.software@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-01-31 17:27:48 UTC
+Date/Publication: 2025-04-15 04:20:02 UTC
